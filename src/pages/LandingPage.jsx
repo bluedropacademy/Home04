@@ -22,7 +22,7 @@ export default function LandingPage() {
   };
 
   return (
-    <div className="min-h-screen">
+    <div>
       <HeroSection onCTAClick={handleCTAClick} />
       <ThreePillars />
       <FounderStory />

@@ -8,7 +8,7 @@ export default function HeroSection({ onCTAClick }) {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white px-4 sm:px-6 py-8 sm:py-20">
+    <section className="relative flex items-center justify-center overflow-hidden bg-white px-4 sm:px-6 py-8 sm:py-12">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div

@@ -154,5 +154,15 @@ button:focus-visible {
   }
   body {
     @apply bg-background text-foreground;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  html {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  #root {
+    margin: 0 !important;
+    padding: 0 !important;
   }
 }
