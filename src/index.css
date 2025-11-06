@@ -156,13 +156,16 @@ button:focus-visible {
     @apply bg-background text-foreground;
     margin: 0 !important;
     padding: 0 !important;
+    overflow-x: hidden !important;
   }
   html {
     margin: 0 !important;
     padding: 0 !important;
+    overflow-x: hidden !important;
   }
   #root {
     margin: 0 !important;
     padding: 0 !important;
+    overflow-x: hidden !important;
   }
 }
